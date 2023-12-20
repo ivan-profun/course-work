@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+</head>
+<body>
+
+    <div class="Header">
+        <button name="file">Файл</button>
+
+    </div>
+
+    <div class="LeftPanel">
+        <!--Кнопки создания фигур-->
+        <button name="arrow" type="button"><img src="" alt="Стрелка"></button>
+        <button name="text" type="button"><img src="" alt="Текст"></button>
+        <button name="rectangle" type="button"><img src="" alt="Прямоугольник"></button>
+        <button name="rhomb" type="button"><img src="" alt="Ромб"></button>
+        <button name="ellipse" type="button"><img src="" alt="Элипс"></button>
+    </div>
+
+    <div class="RigthPanel">
+        <!--Изменение цвета-->
+        <div class="editColor">
+            <p id="ColorBG">
+                <span>Цвет фигуры</span>
+                <input type="color" name="colorBG" value="#ffffff">
+            </p>
+            <p id="ColorBorder">
+                <span>Цвет краёв</span>
+                <input type="color" name="ColorBorder" value="#000000">
+            </p>
+        </div>
+
+        <!--Изменение текста-->
+        <div class="editText" type="hiden">
+            <p>Текст</p>
+            <input type="" name="text">
+            <input type="" name="style">
+            <input type="" name="size">
+        </div>
+
+        <!--Изменение размера-->
+        <div class="editSizeElement">
+            <input type="number" name="verticalSize">
+            <input type="number" name="horizontalSize">
+        </div>
+    </div>
+
+    <div class="MainPlace">
+        <div id="basicPlace">
+
+        </div>
+    </div>
+
+    <div class="Footer">
+
+    </div>
+
+</body>
+</html>
